@@ -1,0 +1,111 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Таблица размеров обуви</title>
+  <style>
+   table {
+    width: 20%; /* Ширина таблицы */
+    background: white; /* Цвет фона таблицы */
+    color: black; /* Цвет текста */
+    border-spacing: 0px; /* Расстояние между ячейками */
+    margin: left;
+    border-collapse: collapse;/*делает границы красивыми*/
+   }
+   td, th {
+    background: antiquewhite; /* Цвет фона ячеек */
+    padding: 5px; /* Поля вокруг текста */
+    text-align: center;
+   }
+  </style>
+ </head>
+ <body>
+  <table border="1">
+   <caption><b>Таблица размеров обуви</b></caption>
+   <tr>
+    <th>Россия</th>
+    <th>Великобритания</th>
+    <th>Европа</th>
+    <th>Длина ступни, см</th>
+   </tr>
+   <tr><td>34,5</td><td>3,5</td><td>36</td><td>23</td></tr>
+   <tr><td>35,5</td><td>4</td><td>36⅔</td><td>23–23,5</td></tr>
+   <tr><td>36</td><td>4,5</td><td>37⅓</td><td>23,5</td></tr>
+   <tr><td>36,5</td><td>5</td><td>38</td><td>24</td></tr>
+   <tr><td>37</td><td>5,5</td><td>38⅔</td><td>24,5</td></tr>
+   <tr><td>38</td><td>6</td><td>39⅓</td><td>25</td></tr>
+   <tr><td>38,5</td><td>6,5</td><td>40</td><td>25,5</td></tr>
+   <tr><td>39</td><td>7</td><td>40⅔</td><td>25,5–26</td></tr>
+   <tr><td>40</td><td>7,5</td><td>41⅓</td><td>26</td></tr>
+   
+  </table>
+ </body>
+</html>
+
+
+<h3>Формы</h3>
+<style>
+    label{
+      width: 150px;
+      display: inline-block;
+      cursor: pointer;
+    }
+</style>
+  <p>
+    <label for="name"><b>Укажите имя:</b></label>
+    <input id="name" type="text">
+  </p>
+  <p>
+    <label for="name"><b>Укажите пароль:</b></label>
+    <input type="password" name="...">
+  </p>
+  <p>
+    <label for="name"><b>Флаг:</b></label>
+    <input type="checkbox" name="answer" value="">Выбери меня
+  </p>
+  <p>
+    <label for="name"><b>Выбери:</b></label>
+    <input type="radio" name="answer" value="a1">Это<Br>
+    <input type="radio" name="answer" value="a2">Или это<Br>
+    <input type="radio" name="answer" value="a3">Или вот это</p>
+  </form>
+  <p>
+       <label for="name"><b>Загрузка файла:</b></label>
+       <input type="file" name="...">
+  </p>
+  <p>
+    <label for="name"><b>Кнопка сброса значений:</b></label>
+    <input type="reset" name="...">
+  </p>
+  <p>
+    <label for="name"><b>Кнопка отправки данных:</b></label>
+    <input type="submit" name="...">
+  </p>
+  <p>
+    <label for="name"><b>Просто кнопка:</b></label>
+    <input type="button" name="...">
+  </p>
+  <p>
+    <label for="name"><b>Поле для e-mail:</b></label>
+    <input type="email" name="...">
+  </p>
+  <p>
+    <label for="name"><b>Поле для поисковых запросов:</b></label>
+    <input type="search" name="...">
+  </p>
+  <p>
+    <label for="name"><b>Поле для номера телефона:</b></label>
+    <input type="tel" name="...">
+  </p>
+  <p>
+    <label for="name"><b>Поле для URL адреса:</b></label>
+    <input type="url" name="...">
+  </p>
+  <p>
+    <label for="name"><b>Поле для чисел:</b></label>
+    <input type="number" name="..." min="8" max="88" step="8">
+  </p>
+<p>
+  <label for="name"><b>Ползунок твоей судьбы:</b></label>
+  <input type="range" name="..." min="78" max="999" step="59">
+</p>
